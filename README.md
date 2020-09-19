@@ -93,15 +93,15 @@ Nota: Si en el pom.xml ya hay otro plugin con el mismo <groupId> y <artifactId>,
 
 system.properties
 
-```
-java.runtime.version=1.8
-```
+
+```java.runtime.version=1.8```
+
 
 Procfile 
 
-```
-web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
-```
+
+```web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war```
+
 
 9.  El ambiente de despliegue contínuo requiere también un archivo de configuración 'circle.yml' en la raíz del proyecto, en el cual se indica (entre otras cosas) en qué aplicación de Heroku se debe desplegar la aplicación que está en GitHUB. Puede basarse en el siguiente archivo, teniendo en cuenta que se debe ajustar el parámetro 'appname': [https://github.com/PDSW-ECI/base-proyectos/blob/master/circle.yml](https://github.com/PDSW-ECI/base-proyectos/blob/master/circle.yml)
 
