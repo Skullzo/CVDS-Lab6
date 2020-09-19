@@ -29,7 +29,7 @@
 
 4. Ingrese a la plataforma de integración contínua Circle.CI ([www.circleci.com](www.circleci.com)). Para ingresar, basta que se autentique con su usuario de GitHUB.
 
-	Para hacer este procedimiento, ingresamos a la plataforma de integración contínua ([Circle.CI](https://circleci.com/))
+	Para hacer este procedimiento, ingresamos a la plataforma de integración contínua [Circle.CI](https://circleci.com/).
 
 	<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/Parte1.4.png">
 
@@ -45,7 +45,7 @@
 
 	<img  src="https://github.com/PDSW-ECI/WebApp-Heroku-CircleCI-CI/blob/master/img/SetDeployUser.png">
 
-
+	
 
 6. Si todo queda correctamente configurado, cada vez que hagan un PUSH al repositorio, CircleCI ejecutará la fase de construcción del proyecto. Para que cuando las pruebas pasen automáticamente se despliegue en Heroku, debe definir en el archivo circle.yml (ubicado en la raíz del proyecto):
 	* La rama del repositorio de GitHUB que se desplegará en Heroku. o El nombre de la aplicación de Heroku en la que se hará el
