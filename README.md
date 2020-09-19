@@ -154,7 +154,7 @@ URL de la aplicación desplegada en **Heroku**
 
 https://laboratoriocvds6.herokuapp.com/
 
-## Parte I. Integración continua
+## Parte II. Interfaz Gráfica
 
 Agregue mayor detalle a la interfaz gráfica de la página web para que se vea más amigable al usuario. Busque y agregue estilos, colores de fondo, títulos, centrar la página, etc. cualquier elemento o detalle que pueda mejorar cómo se ve la página y como el usuario la percibe.
 
