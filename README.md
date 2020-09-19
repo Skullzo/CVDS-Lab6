@@ -45,6 +45,8 @@ Vaya a CONTINUOUS DEPLOYMENT/Heroku Deployment, y realice los dos pasos indicado
 
 <img  src="https://github.com/PDSW-ECI/WebApp-Heroku-CircleCI-CI/blob/master/img/SetDeployUser.png">
 
+
+
 6.  Si todo queda correctamente configurado, cada vez que hagan un PUSH al repositorio, CircleCI ejecutará la fase de construcción del proyecto. Para que cuando las pruebas pasen automáticamente se despliegue en Heroku, debe definir en el archivo circle.yml (ubicado en la raíz del proyecto):
 *   La rama del repositorio de GitHUB que se desplegará en Heroku. o El nombre de la aplicación de Heroku en la que se hará el despliegue.
 *   La ejecución de la fase ‘site’ de Maven, para generar la documentación de pruebas, cubrimiento de pruebas y análisis estático (cuando las mismas sean habilitadas).
@@ -109,3 +111,7 @@ Badge **CircleCI**
 Badge **Codacy**
 	
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8bccd05e4cee4cd6ac6f79770f0f013a)](https://www.codacy.com/manual/JuanMunozD/CVDS-6?utm_source=github.com&utm_medium=referral&utm_content=JuanMunozD/CVDS-6&utm_campaign=Badge_Grade)
+
+URL de la aplicación desplegada en **Heroku**:
+
+https://laboratoriocvds6.herokuapp.com/
