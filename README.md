@@ -150,6 +150,6 @@ Badge **Codacy**
 	
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8bccd05e4cee4cd6ac6f79770f0f013a)](https://www.codacy.com/manual/JuanMunozD/CVDS-6?utm_source=github.com&utm_medium=referral&utm_content=JuanMunozD/CVDS-6&utm_campaign=Badge_Grade)
 
-URL de la aplicación desplegada en **Heroku**:
+URL de la aplicación desplegada en **Heroku**
 
 https://laboratoriocvds6.herokuapp.com/
