@@ -153,3 +153,9 @@ Badge **Codacy**
 URL de la aplicación desplegada en **Heroku**
 
 https://laboratoriocvds6.herokuapp.com/
+
+## Parte I. Integración continua
+
+Agregue mayor detalle a la interfaz gráfica de la página web para que se vea más amigable al usuario. Busque y agregue estilos, colores de fondo, títulos, centrar la página, etc. cualquier elemento o detalle que pueda mejorar cómo se ve la página y como el usuario la percibe.
+
+Si no recuerda cómo hacerlo, puede revisar la información disponible en W3Schools para HTML y CSS.
