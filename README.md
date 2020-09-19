@@ -1,10 +1,19 @@
 # Laboratorio 6
 ## Parte I. Integración continua
 
-1. Cree (si no la tiene aún) una cuenta en el proveedor PAAS Heroku ([www.heroku.com](www.heroku.com)).
+1. Cree (si no la tiene aún) una cuenta en el proveedor PAAS Heroku ([www.heroku.com](https://www.heroku.com/)).
+
+A continuación, creamos la cuenta en [Heroku](https://www.heroku.com/).
+
+<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/Parte1.1.PNG">
+
 2. Acceda a su cuenta en Heroku y cree una nueva aplicación:
 
 	<img  src="https://github.com/PDSW-ECI/WebApp-Heroku-CircleCI-CI/blob/master/img/HerokuCreateApp.png">
+	
+	Ahora, para crear una nueva aplicación, realizamos el siguiente procedimiento.
+	
+	<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/Parte1.2.png">
 
 3. Después de crear su cuenta en Heroku y la respectiva aplicación, genere una llave de API: Opción Manage Account:
 
@@ -12,6 +21,10 @@
 	
 	Opción API Key:
 	<img  src="https://github.com/PDSW-ECI/WebApp-Heroku-CircleCI-CI/blob/master/img/GenerateKey.png">
+	
+	Ahora, para generar la **API Key**, realizamos clic en **Reveal**, y ahora vemos nuestra **API Key**.
+	
+	<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/Parte1.3.png">
 
 4. Ingrese a la plataforma de integración contínua Circle.CI ([www.circleci.com](www.circleci.com)). Para ingresar, basta que se autentique con su usuario de GitHUB.
 5. Seleccione la opción de agregar proyectos. En la organización o usuario de GitHub, seleccione el proyecto al que le va hacer despliegue continuo, y haga clic en "Build Project":
