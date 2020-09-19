@@ -3,9 +3,9 @@
 
 1. Cree (si no la tiene aún) una cuenta en el proveedor PAAS Heroku ([www.heroku.com](https://www.heroku.com/)).
 
-A continuación, creamos la cuenta en [Heroku](https://www.heroku.com/).
+	A continuación, creamos la cuenta en [Heroku](https://www.heroku.com/).
 
-<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/Parte1.1.PNG">
+	<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/Parte1.1.PNG">
 
 2. Acceda a su cuenta en Heroku y cree una nueva aplicación:
 
@@ -20,6 +20,7 @@ A continuación, creamos la cuenta en [Heroku](https://www.heroku.com/).
 	<img  src="https://github.com/PDSW-ECI/WebApp-Heroku-CircleCI-CI/blob/master/img/ManageAccount.png">
 	
 	Opción API Key:
+	
 	<img  src="https://github.com/PDSW-ECI/WebApp-Heroku-CircleCI-CI/blob/master/img/GenerateKey.png">
 	
 	Ahora, para generar la **API Key**, realizamos clic en **Reveal**, y ahora vemos nuestra **API Key**.
