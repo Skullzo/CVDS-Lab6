@@ -1,11 +1,7 @@
 package edu.eci.cvds.calculadora;
 
-import java.util.ArrayList;
-import java.util.Random;
-
 import javax.faces.bean.ApplicationScoped; 
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.*;
 
 @ManagedBean(name = "calculadoraBean")
@@ -14,12 +10,12 @@ import javax.faces.bean.*;
 @SessionScoped
 public class Calculadora{
 
-	static String cadenaEntrada = "";
-	static double resultadoMean = 0;
-	static double resultadoVariance = 0;
-	static double resultadoStandardDeviation = 0;
-	static double resultadoMode = 0;
-	static double cantidadNumero = 0;
+	private static String cadenaEntrada = "";
+	private static double resultadoMean = 0;
+	private static double resultadoVariance = 0;
+	private static double resultadoStandardDeviation = 0;
+	private static double resultadoMode = 0;
+	private static double cantidadNumero = 0;
 
 
 	public Calculadora(){
