@@ -29,9 +29,9 @@
 
 4. Ingrese a la plataforma de integración contínua Circle.CI ([www.circleci.com](www.circleci.com)). Para ingresar, basta que se autentique con su usuario de GitHUB.
 
-Para hacer este procedimiento, ingresamos a la plataforma de integración contínua ([Circle.CI](https://circleci.com/))
+	Para hacer este procedimiento, ingresamos a la plataforma de integración contínua ([Circle.CI](https://circleci.com/))
 
-<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/Parte1.3.png">
+	<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/Parte1.4.png">
 
 5. Seleccione la opción de agregar proyectos. En la organización o usuario de GitHub, seleccione el proyecto al que le va hacer despliegue continuo, y haga clic en "Build Project":
 
