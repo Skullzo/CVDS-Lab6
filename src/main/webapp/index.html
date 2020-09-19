@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+		<form name="formu" action="/cosasPorHacer" onsubmit="return validateForm()" method="get">
+			ID: <input type="text" name="id">
+			<input type="submit" value="Sumbit">
+		</form>
+		<script>
+			<!-- Validacion de numero y en el rango de 1 a 200 -->
+			function validateForm() {
+				var x = document.forms["formu"]["id"].value;
+				if (isNaN(x) || x<1 || x>200) {
+					alert("Numero invalido");
+					return false;
+				}
+			}
+		</script>
+    </body>
+	
+</html>
