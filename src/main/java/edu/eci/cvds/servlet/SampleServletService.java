@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
     urlPatterns = "/cosasPorHacer"
 )
 public class SampleServletService extends HttpServlet{
-    static final long serialVersionUID = 35L;
+    private static final long serialVersionUID = 35L;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

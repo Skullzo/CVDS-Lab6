@@ -2,7 +2,7 @@ package edu.eci.cvds.calculadora;
 
 import javax.faces.bean.ApplicationScoped; 
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.*;
+import javax.faces.bean.SessionScoped;
 
 @ManagedBean(name = "calculadoraBean")
 @ApplicationScoped
