@@ -159,3 +159,15 @@ https://laboratoriocvds6.herokuapp.com/
 Agregue mayor detalle a la interfaz gráfica de la página web para que se vea más amigable al usuario. Busque y agregue estilos, colores de fondo, títulos, centrar la página, etc. cualquier elemento o detalle que pueda mejorar cómo se ve la página y como el usuario la percibe.
 
 Si no recuerda cómo hacerlo, puede revisar la información disponible en W3Schools para HTML y CSS.
+	
+Primero le realizamos los siguientes cambios al archivo ```calculadora.xhtml``` para añadirle una interfaz gráfica más amigable con el ususario.
+	
+<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/ParteII1.PNG">
+
+Luego ejecutamos el comando ```mvn tomcat7:run``` en el **cmd** quedando de la siguiente forma.
+	
+<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/ParteII2.PNG">
+	
+Después ingresamos la URL ```http://localhost:8080/faces/calculadora.xhtml``` desde nuestro navegador web. Vemos que los cambios se han realizado con éxito y ya tenemos una interfaz gráfica más amigable con el usuario.
+	
+<img  src="https://github.com/JuanMunozD/CVDS-6/blob/master/Im%C3%A1genes/ParteII3.PNG">
