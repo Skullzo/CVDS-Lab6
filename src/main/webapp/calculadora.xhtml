@@ -4,27 +4,51 @@
       xmlns:p="http://primefaces.org/ui">
 <h:head></h:head>
 <h:body>
+	<body style = "background: url(https://www.muycomputer.com/wp-content/uploads/2019/12/Fondos-de-escritorio-para-Windows-10.jpg) no-repeat ; background-size: 100% 140%;">
+	</body>
     <h:form id="calculadora_form">
-        <p:outputPanel>
-            <p:inputText value="#{calculadoraBean.cadenaEntrada}"></p:inputText>
-        </p:outputPanel>
+		<h1 style="text-align:center;">WINDOWS CALCULATOR</h1>
+		<h2 style="text-align:center;">Write the numbers separated by a ";" which you want to find Mean, Variance, Standard Deviation and Mode. For example: 1; 2; 3; 4; 5</h2>
+		<h1 style="text-align:center;">
+		<p:outputPanel>
+		<p:inputText value="#{calculadoraBean.cadenaEntrada}"></p:inputText>
+		</p:outputPanel>
+		</h1>
+		<h1 style="text-align:center;">
         <p:outputPanel>
         <p:outputLabel value="Mean: #{calculadoraBean.resultadoMean}"></p:outputLabel>
         </p:outputPanel>
+		</h1>
+		<h1 style="text-align:center;">
 		<p:outputPanel>
         <p:outputLabel value="Variance: #{calculadoraBean.resultadoVariance}"></p:outputLabel>
         </p:outputPanel>
+		</h1>
+		<h1 style="text-align:center;">
         <p:outputPanel>
         <p:outputLabel value="Standard Deviation: #{calculadoraBean.resultadoStandardDeviation}"></p:outputLabel>
         </p:outputPanel>
+		</h1>
+		<h1 style="text-align:center;">
         <p:outputPanel>
         <p:outputLabel value="Mode: #{calculadoraBean.resultadoMode}"></p:outputLabel>
         </p:outputPanel>
+		</h1>
+		<p style="text-align:center;">
         <p:commandButton value="Mean" update="calculadora_form" action="#{calculadoraBean.calculateMean()}"></p:commandButton>
+		</p>
+		<p style="text-align:center;">
 		<p:commandButton value="Variance" update="calculadora_form" action="#{calculadoraBean.calculateVariance()}"></p:commandButton>
+		</p>
+		<p style="text-align:center;">
 		<p:commandButton value="StandardDeviation" update="calculadora_form" action="#{calculadoraBean.calculateStandardDeviation()}"></p:commandButton>
+		</p>
+		<p style="text-align:center;">
 		<p:commandButton value="Mode" update="calculadora_form" action="#{calculadoraBean.calculateMode()}"></p:commandButton>
-        <p:commandButton value="Borrar" update="calculadora_form" action="#{calculadoraBean.restart()}"></p:commandButton>
-    </h:form>
+        </p>
+		<p style="text-align:center;">
+		<p:commandButton value="Erase" update="calculadora_form" action="#{calculadoraBean.restart()}"></p:commandButton>
+		</p>
+	</h:form>
 </h:body>
 </html>
